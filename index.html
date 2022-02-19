@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Income Boss</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div >
+            <h1 class="headline">Saving Boss</h1>
+        </div>
+
+    </header>
+
+    <div class="flex-container">
+        <div class="grid">
+            <img src="/image/pexels-pixabay-53621.jpg" class="img" alt="..." width="600" height="400">
+        </div> 
+
+            <div class="cal">
+                <div class="">
+                    <form >
+                        <label for="income-money">Income Amount</label>
+                        <input id="income-input" type="text">                  
+                    </form>
+                </div>
+
+                <div class="headline"><h3> Expences</h3></div>
+                <p><label for="food-input"> Food   </label>
+                    <input id="food-input" type="text">
+                </p>
+
+                <p><label for="rent-input"> Rent   </label>
+                    <input id="rent-input" type="text">
+                </p>
+                
+                
+                <p><label for="cloth-input">Clothes</label>
+                    <input id="cloth-input" type="text">
+                </p>
+                
+                <!-- claculation -->
+               <p><button  id="calculate-btn" >Calculate</button></p>
+
+                <div>
+                    <h3>Total Expences: <span id="totalExp">00</span></h3>
+                </div>
+
+                <div>
+                    <h3>Balance: <span id="balance_rest">00</span></h3>
+                </div>
+                <p>Save:<input id="inputSave" type="text"><span>%</span> <button id="save-btn">Save</button>
+                </p>                
+                <div>
+                    <h3>Saving Amount: <span id="savings">00</span></h3>
+                </div>
+                <div>
+                    <h3>Remaining Balance: <span id="rest-balance">00</span></h3></div>
+               
+            </div>
+        </div>
+        
+
+    <!-- script for javascript here -->
+    <script src="app.js"></script>
+</body>
+</html>
